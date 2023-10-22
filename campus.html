@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" size="16x16" type="image/x-icon">
+    <title>Campus</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- photo swipe -->
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo"><img src="images/TBLWCI.png" alt=""></a>
+        <nav class="navbar">
+            <a href="index.html" class="hover-underline">HOME</a>
+            <a href="announcement.html" class="hover-underline">ANNOUNCEMENT</a>
+            <a href="aboutus.html" class="hover-underline">ABOUT US</a>
+            <!-- <a href="courses.html" class="hover-underline">COURSES</a> -->
+            <a href="programs.html" class="hover-underline">PROGRAMS</a>
+            <a href="admission.html" class="hover-underline">ADMISSION</a>
+            <a href="campus.html" class="hover-underline" style="color:#fff; border-bottom: 1px solid #fff">CAMPUS</a>
+            <a href="contact.html" class="hover-underline">CONTACT US</a>
+        </nav>
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+        <!-- login form -->
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <div class="remember">
+                <!-- <input type="checkbox" name="" id="remember">
+                        <label for="remember-me">remember me</label> -->
+                <div class="forgot-and-reg">
+                    <a href="#">Forgot Password?</a>
+                    <a href="#" id="regFormBtn">Don’t have an account yet? <br> Register now.</a>
+                </div>
+            </div>
+            <div class="form-button">
+                <a href="#" class="btn login">
+                    <span class="text text-1">login</span>
+                    <span class="text text-2" aria-hidden="true">login</span>
+                </a>
+                <!-- <a href="#" class="btn reg" id="regFormBtn">
+                            <span class="text text-1">register now</span>
+                            <span class="text text-2" aria-hidden="true">register now</span>
+                        </a> -->
+            </div>
+        </form>
+        <form action="" class="reg-form">
+            <h3>Register</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <div class="form-button">
+                <a href="#" class="btn reg">
+                    <span class="text text-1">register</span>
+                    <span class="text text-2" aria-hidden="true">register</span>
+                </a>
+            </div>
+        </form>
+    </header>
+    <section class="campus-banner">
+        <div class="campus-title">
+            <h1>Our Campus</h1>
+        </div>
+    </section>
+
+    <!-- facilities section starts -->
+    <section class="facilities-container">
+        <h1 class="heading">our facilities</h1>
+        <div class="filters filter-button-group">
+            <ul class="filter-list-container">
+                <li class="filter-list active" data-filter="*">All</li>
+                <li class="filter-list" data-filter=".annex-elem-dept">Annex Elementary Dept</li>
+                <li class="filter-list" data-filter=".college-dept">College Dept</li>
+                <li class="filter-list" data-filter=".main-hs-dept">Main HS Dept</li>
+            </ul>
+        </div>
+        <div id="my-gallery">
+            <div class="grid">
+                <figure class="facilities-image annex-elem-dept  grid-item">
+                    <a href="./images/School Facilities/ANNEX-ELEM DEPT/ELEM FRONT BUILDING.jpg" data-pswp-width="1875"
+                        data-pswp-height="2500" target="_blank">
+                        <img src="./images/School Facilities/ANNEX-ELEM DEPT/ELEM FRONT BUILDING.jpg"
+                            alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image college-dept grid-item">
+                    <a href="./images/School Facilities/COLLEGE DEPT/COLLEGE FRONT BUILDING.jpg" data-pswp-width="1669"
+                        data-pswp-height="2500" target="_blank">
+                        <img src="./images/School Facilities/COLLEGE DEPT/COLLEGE FRONT BUILDING.jpg"
+                            alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/CLASSROOM.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/CLASSROOM.jpg" alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/CONFERENCE ROOM.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/CONFERENCE ROOM.jpg" alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/FRONT BUILDING.png" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/FRONT BUILDING.png" alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/OFFICE OF THE PRESIDENT.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/OFFICE OF THE PRESIDENT.jpg"
+                            alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/SCIENCE LAB.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/SCIENCE LAB.jpg" alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/SPEECH LAB.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/SPEECH LAB.jpg" alt="facilities image">
+                    </a>
+                </figure>
+                <figure class="facilities-image main-hs-dept grid-item">
+                    <a href="./images/School Facilities/MAIN-HS DEPT/STAGE.jpg" data-pswp-width="2500"
+                        data-pswp-height="1666" target="_blank">
+                        <img src="./images/School Facilities/MAIN-HS DEPT/STAGE.jpg" alt="facilities image">
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>403 Bee Bien Bldg. Molino 1, Bacoor, Philippines</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/BLWCOfficial" class="fab fa-facebook-f"></a>
+                    <!-- <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a> -->
+                </div>
+            </div>
+            <!-- 
+                    <div class="box">
+                        <h3>contact us</h3>
+                        <p>(046) 871 3546</p>
+                        <a href="#" class="link">tblwcregistrar@gmail.com</a>
+                    </div> -->
+
+            <!---div class="box">
+                        <h3>localization</h3>
+                        <p>230 points of the pines <br>
+                        colorado springs <br>
+                        united states</p>
+                    </div--->
+
+        </div>
+        <div class="credit">2023 <span>TBLWC </span>| all rights are reserved!</div>
+    </section>
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('.grid').isotope({
+                itemSelector: '.grid-item',
+            });
+
+            // filter items on button click
+            $('.filter-button-group').on('click', 'li', function () {
+                const filterValue = $(this).attr('data-filter');
+                $('.grid').isotope({ filter: filterValue });
+                $('.filter-button-group li').removeClass('active');
+                $(this).addClass('active');
+            });
+        })
+    </script>
+
+    <!-- photo swipe js-->
+    <script type="module">
+        import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '#my-gallery',
+            children: 'a',
+            pswpModule: () => import('https://unpkg.com/photoswipe'),
+        });
+
+        lightbox.init();
+    </script>
+</body>
+
+</html>
